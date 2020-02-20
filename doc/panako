@@ -12,7 +12,7 @@
 PANAKO_DIR="/opt/panako"
 
 #Some parameters for the JVM to improve performance
-PANAKO_JVM_OPTS="-server -XX:+UseConcMarkSweepGC -XX:+UseParNewGC -Xms32g -Xmx32g"
+PANAKO_JVM_OPTS="-server -XX:+UseConcMarkSweepGC -Xms256m -Xmx32g"
 
 #The configuration file to configure logging
 LOG_CONFIGURATION="$PANAKO_DIR/logging.properties"
